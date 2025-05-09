@@ -1,100 +1,79 @@
-# Math Mate: Your All-in-One Math Companion
+# 🔢 MathMate - The Ultimate Calculator Web App
 
-[![GitHub Stars](https://img.shields.io/github/stars/your-username/math-mate?style=social)](https://github.com/your-username/math-mate/stargazers)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+<p align="center">
+  <img src="https://img.shields.io/badge/Next.js-000?style=for-the-badge&logo=nextdotjs&logoColor=white" />
+  <img src="https://img.shields.io/badge/TypeScript-007acc?style=for-the-badge&logo=typescript&logoColor=white" />
+  <img src="https://img.shields.io/badge/Netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white" />
+  <img src="https://img.shields.io/github/license/ShabdVasudeva/Math-Mate?style=for-the-badge" />
+</p>
 
-Math Mate is a comprehensive and user-friendly web application designed to make math simple and accessible for everyone. Whether you're a student tackling complex equations or just need a quick calculation, Math Mate has you covered.
-
-## ✨ Features
-
-*   **Basic Calculator:** Perform standard arithmetic operations with ease.
-*   **Scientific Calculator:** Access advanced functions for more complex calculations.
-*   **Programmer Calculator:** Work with different number bases (binary, octal, decimal, hexadecimal).
-*   **Unit Converter:** Quickly convert between various units of measurement.
-*   **Currency Converter:** Get up-to-date exchange rates for global currencies.
-*   **Graph Plotter:** Visualize mathematical functions and equations.
-*   **Calculus Solver:** Solve derivatives and integrals for simple expressions.
-*   **Clean and Intuitive Interface:** Easy to navigate and use on any device.
-*   **Responsive Design:** Works seamlessly on desktops, tablets, and mobile phones.
-*   **Light/Dark Theme:** Switch between light and dark modes for your comfort.
-
-## 🚀 Installation
-
-To get Math Mate up and running on your local machine, follow these simple steps:
-
-1.  **Clone the repository:**
-    ```bash
-    git clone https://github.com/ShabdVasudeva/Math-Mate.git
-    cd Math-Mate
-    ```
-
-2.  **Install dependencies:**
-    ```bash
-    npm install
-    # or
-    yarn install
-    # or
-    pnpm install
-    ```
-
-3.  **Run the development server:**
-    ```bash
-    npm run dev
-    # or
-    yarn dev
-    # or
-    pnpm dev
-    ```
-    Open [http://localhost:9002](http://localhost:9002) (or your configured port) with your browser to see the result.
-
-## ⬆️ Pushing to Your GitHub Repository
-
-If you've cloned this project and want to push it to your own GitHub repository (e.g., `https://github.com/ShabdVasudeva/Math-Mate.git`), follow these steps after cloning and navigating into the project directory:
-
-1.  **Initialize a new Git repository (if you haven't already cloned or if you removed the .git folder):**
-    ```bash
-    git init
-    ```
-
-2.  **Add all files to staging:**
-    ```bash
-    git add .
-    ```
-
-3.  **Commit your changes:**
-    ```bash
-    git commit -m "Initial commit"
-    ```
-
-4.  **Rename the default branch to `main` (if it's not already named `main`):**
-    ```bash
-    git branch -M main
-    ```
-
-5.  **Add your remote repository:**
-    Replace `https://github.com/ShabdVasudeva/Math-Mate.git` with your actual repository URL.
-    ```bash
-    git remote add origin https://github.com/ShabdVasudeva/Math-Mate.git
-    ```
-    If you already have a remote named `origin`, you might need to remove it first (`git remote remove origin`) or update its URL (`git remote set-url origin https://github.com/ShabdVasudeva/Math-Mate.git`).
-
-6.  **Push your code to the remote repository:**
-    ```bash
-    git push -u origin main
-    ```
-
-## 🛠️ Built With
-
-*   [Next.js](https://nextjs.org/) - React framework
-*   [Tailwind CSS](https://tailwindcss.com/) - Utility-first CSS framework
-*   [Shadcn/ui](https://ui.shadcn.com/) - UI components
-*   [Lucide React](https://lucide.dev/) - Icons
-*   [TypeScript](https://www.typescriptlang.org/) - Programming language
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details (if available, typically MIT allows free use and modification).
+> **MathMate** is a modern calculator built with Next.js, TypeScript, and CSS. It supports advanced features like graph plotting, differentiation, integration, unit conversion, trigonometry, and more — all in one clean UI.
 
 ---
 
-Enjoy using Math Mate! If you have any feedback or encounter issues, please feel free to open an issue on the GitHub repository.
+## ✨ Features
+
+- 📈 **Graph Plotting** – Plot interactive 2D graphs with zoom and pan.
+- ∫ **Differentiation & Integration** – Solve calculus problems both symbolically and numerically.
+- 🔺 **Trigonometry** – Handle trigonometric functions in degrees and radians.
+- 👨‍💻 **Programmer Calculator** – Convert and compute in binary, decimal, octal, and hex.
+- ⚖️ **Unit Conversion** – Convert between units of length, mass, temperature, speed, and more.
+- ♾️ **Live Mode** – Recalculate expressions instantly as you type.
+- ☁️ **Deployed on Netlify** – Fast, free, and reliable hosting.
+
+---
+
+## 🚀 Tech Stack
+
+| Technology     | Role                    |
+|----------------|-------------------------|
+| **Next.js**    | Framework               |
+| **TypeScript** | Static Typing           |
+| **JavaScript** | Core Logic              |
+| **CSS**        | Custom Styling          |
+| **Netlify**    | Hosting & Deployment    |
+
+---
+
+## 🧪 Installation
+
+```bash
+# Clone the repo
+git clone https://github.com/ShabdVasudeva/Math-Mate.git
+cd Math-Mate
+
+# Install dependencies
+npm install
+
+# Start the dev server
+npm run dev
+```
+<p>Then open <a href="http://localhost:3000">http://localhost:3000</a> in your browser.</p>
+
+---
+
+<h2>🌍 Live Demo</h2>
+<p>Check out the app live on: <a href="https://mathsmate.netlify.app"><strong>mathmate.netlify.app</strong></a></p>
+
+---
+
+<h2>📄 License</h2>
+<p>MIT License — feel free to use and modify!</p>
+
+---
+
+<h2>🤝 Contributing</h2>
+<ol>
+  <li>Fork the repo</li>
+  <li>Create your feature branch (<code>git checkout -b feat/amazing-feature</code>)</li>
+  <li>Commit your changes (<code>git commit -m 'Add amazing feature'</code>)</li>
+  <li>Push to the branch (<code>git push origin feat/amazing-feature</code>)</li>
+  <li>Open a Pull Request</li>
+</ol>
+
+---
+
+<h2>💬 Let's Connect!</h2>
+<p>For questions or ideas, feel free to reach out on <a href="https://github.com/ShabdVasudeva/Math-Mate/issues">GitHub Issues</a> or fork and star the project!</p>
+
+<p>Made with love by <strong><a href="https://github.com/ShabdVasudeva">@ShabdVasudeva</a></strong></p>
