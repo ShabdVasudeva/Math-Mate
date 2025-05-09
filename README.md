@@ -53,7 +53,7 @@ npm run dev
 ---
 
 <h2>🌍 Live Demo</h2>
-<p>Check out the app live on: <a href="https://mathsmate.netlify.app"><strong>mathmate.netlify.app</strong></a></p>
+<p>Check out the app live on: <a href="https://mathsmate.netlify.app"><strong>mathsmate.netlify.app</strong></a></p>
 
 ---
 
