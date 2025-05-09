@@ -1,0 +1,126 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Fluent UI Inspired Light Theme */
+    /* Backgrounds and Surfaces */
+    --background: 220 17% 97%; /* rgb(244, 246, 250) - Very light gray-blue */
+    --foreground: 220 15% 20%; /* rgb(42, 47, 59) - Dark gray-blue */
+    
+    --card: 0 0% 100%; /* rgb(255, 255, 255) - White */
+    --card-foreground: 220 15% 20%; /* rgb(42, 47, 59) */
+    
+    --popover: 0 0% 100%; /* rgb(255, 255, 255) - White */
+    --popover-foreground: 220 15% 20%; /* rgb(42, 47, 59) */
+    
+    /* Primary (Fluent Blue) */
+    --primary: 207 90% 54%; /* #0078D4 */
+    --primary-foreground: 0 0% 100%; /* White */
+    
+    /* Secondary (Neutral Gray) */
+    --secondary: 220 10% 50%; /* rgb(115, 122, 140) - Medium Gray */
+    --secondary-foreground: 0 0% 100%; /* White */
+    
+    /* Muted (Lighter Gray-Blue) */
+    --muted: 220 15% 90%; /* rgb(224, 228, 235) */
+    --muted-foreground: 220 10% 45%; /* rgb(102, 109, 128) */
+    
+    /* Accent (Vibrant Teal) */
+    --accent: 175 70% 38%; /* A vibrant teal */
+    --accent-foreground: 0 0% 100%; /* White */
+    
+    /* Destructive (Standard Red) */
+    --destructive: 0 72% 51%; /* rgb(220, 53, 69) */
+    --destructive-foreground: 0 0% 100%; /* White */
+    
+    /* Borders and Inputs */
+    --border: 220 15% 85%; /* rgb(212, 216, 227) - Light Gray */
+    --input: 220 15% 94%; /* rgb(235, 238, 245) - Slightly off-white for inputs */
+    --ring: 207 90% 60%; /* Slightly lighter Fluent Blue for focus rings */
+
+    --radius: 0.375rem; /* Fluent uses slightly less rounded corners than default shadcn 0.5rem */
+
+    /* Chart colors - Fluent-inspired categorical palette */
+    --chart-1: 207 90% 54%; /* Primary Blue */
+    --chart-2: 175 70% 38%; /* Accent Teal */
+    --chart-3: 30 90% 55%;  /* Orange */
+    --chart-4: 260 70% 60%; /* Purple */
+    --chart-5: 120 50% 45%; /* Green */
+
+    /* Sidebar specific - Light Theme */
+    --sidebar-background: 220 15% 94%; /* Very light gray-blue */
+    --sidebar-foreground: 220 15% 25%; /* Dark gray text */
+    --sidebar-primary: 207 90% 54%; /* Fluent Blue for active item text/icon */
+    --sidebar-primary-foreground: 0 0% 100%; /* White */
+    --sidebar-accent: 207 80% 92%; /* Very light blue (background for active/hovered item) */
+    --sidebar-accent-foreground: 207 90% 45%; /* Darker primary blue (text/icon on accent bg) */
+    --sidebar-border: 220 15% 85%; /* Light gray border */
+    --sidebar-ring: 207 90% 60%; /* Fluent Blue for focus rings */
+  }
+
+  .dark {
+    /* Fluent UI Inspired Dark Theme */
+    /* Backgrounds and Surfaces */
+    --background: 220 20% 12%; /* #1A1C24 - Very Dark Gray-Blue */
+    --foreground: 220 15% 88%; /* #D6D9E0 - Light Gray for text */
+    
+    --card: 220 20% 16%; /* #232630 - Slightly Lighter Dark Gray for cards */
+    --card-foreground: 220 15% 88%;
+    
+    --popover: 220 20% 18%; /* Slightly lighter than card for popovers */
+    --popover-foreground: 220 15% 88%;
+
+    /* Primary (Lighter Fluent Blue) */
+    --primary: 207 90% 65%; /* #4A9FF0 */
+    --primary-foreground: 220 20% 10%; /* Very dark for text on light blue */
+
+    /* Secondary (Medium Dark Gray) */
+    --secondary: 220 15% 35%; /* #4F5666 */
+    --secondary-foreground: 220 15% 88%;
+
+    /* Muted (Dark Gray) */
+    --muted: 220 15% 25%; /* #363B49 */
+    --muted-foreground: 220 10% 65%; /* Medium-Light Gray text on muted */
+
+    /* Accent (Lighter Teal) */
+    --accent: 175 70% 55%;
+    --accent-foreground: 220 20% 10%;
+
+    /* Destructive (Brighter Red) */
+    --destructive: 0 80% 65%; /* #F95A66 */
+    --destructive-foreground: 0 0% 100%; /* White */
+
+    /* Borders and Inputs */
+    --border: 220 15% 30%; /* #414756 - Medium Dark Gray for borders */
+    --input: 220 15% 20%; /* #2D313D - Darker Gray for input backgrounds */
+    --ring: 207 90% 70%; /* Even Lighter Blue for focus rings */
+
+    /* Chart colors - Fluent-inspired categorical palette for dark theme */
+    --chart-1: 207 90% 65%; /* Primary Lighter Blue */
+    --chart-2: 175 70% 55%; /* Accent Lighter Teal */
+    --chart-3: 30 90% 65%;  /* Lighter Orange */
+    --chart-4: 260 70% 70%; /* Lighter Purple */
+    --chart-5: 120 50% 60%; /* Lighter Green */
+    
+    /* Sidebar specific - Dark Theme */
+    --sidebar-background: 220 20% 18%; /* Dark gray, e.g., #2D313D */
+    --sidebar-foreground: 220 15% 80%; /* Light gray text */
+    --sidebar-primary: 207 90% 65%; /* Lighter Fluent Blue for active item text/icon */
+    --sidebar-primary-foreground: 220 20% 10%; /* Very dark text */
+    --sidebar-accent: 207 80% 25%; /* Darker, desaturated blue (background for active/hovered) */
+    --sidebar-accent-foreground: 207 90% 75%; /* Bright primary blue (text/icon on accent bg) */
+    --sidebar-border: 220 15% 30%; /* Medium Dark Gray border */
+    --sidebar-ring: 207 90% 70%; /* Lighter Blue for focus rings */
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
